@@ -15,7 +15,7 @@ const ForgotPassword = () => {
       placeholder='abcd@abcd.com'/>
         
       <button className='w-[90%] h-[50px] ml-[1.1rem] bg-blue-700 rounded-lg mt-8 text-white text-[18px]'>Verify</button>
-      <Link to='/Login' className='w-full flex items-center justify-center mt-4'>
+      <Link to='/' className='w-full flex items-center justify-center mt-4'>
         <TiArrowBack className='text-[30px]'/>
         <h1 className='text-[19px]'>Back to Login</h1>
       </Link>
